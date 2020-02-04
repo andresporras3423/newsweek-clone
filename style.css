@@ -100,3 +100,160 @@
     height: 17px;
     width: 17px;
 }
+
+.section-title{
+    color: rgba(3,3,3,.4);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 11px;
+}
+
+.sections-container{
+    margin-top: 50px;
+}
+
+.box-model{
+    margin-top: 10px;
+}
+
+.box-model > div{
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+}
+
+.box-model > div > span {
+    background-color: rgba(255,255,255,.9);
+    color: #f72210;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+}
+
+.box-model > h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box-model > p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.news-image-1{
+    background-image: url('https://d.newsweek.com/en/full/1564869/gretchen-whitmer-michigan-democratic-governor.webp?w=397&h=265&q=90&f=23dc26f49a1a143fd454cd614efc15d6');
+}
+
+.news-image-2{
+    background-image: url('https://d.newsweek.com/en/full/1564829/donald-trump-waves.webp?w=397&h=265&q=90&f=00b7462fee2a3d4a1617ce097781d8ec');
+}
+
+.news-image-3{
+    background-image: url('https://d.newsweek.com/en/full/1564811/diamond-princess-cruise-ship-japan-february-2020.webp?w=397&h=265&q=90&f=940a55c62d92cb2a529f448e961ab953');
+}
+
+.news-image-4{
+    background-image: url('https://d.newsweek.com/en/full/1564747/bernie-sanders.webp?w=591&h=364&f=09a2e5033283ffbf3f7fe991f152ae91');
+}
+
+.news-image-5{
+    background-image: url('https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=397&h=265&q=90&f=28364ce5201fd5f5f87de68d872e8b00');
+}
+
+.box-model-2 > div{
+  background-size: 61px 61px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.mini-image-1{
+    background-image: url('https://d.newsweek.com/en/full/1555939/mark-joseph.webp?w=63&h=63&f=33ea309c94ea8adc6d59a915e8f1e60e');
+}
+
+.mini-image-2{
+    background-image: url('https://d.newsweek.com/en/full/1564742/sandy-orth.webp?w=63&h=63&f=ae70a222f448ca5842eb361dd742da0f');
+}
+
+.mini-image-3{
+    background-image: url('https://d.newsweek.com/en/full/1564137/paul-gordon.webp?w=63&h=63&f=710354e12f766815ef7a1047e42373a2');
+}
+
+.mini-image-4{
+    background-image: url('https://d.newsweek.com/en/full/1563844/alida-garcia.webp?w=63&h=63&f=f79f37163fe96d4318c63725345c3950');
+}
+
+.mini-image-5{
+    background-image: url('https://d.newsweek.com/en/full/1563844/alida-garcia.webp?w=63&h=63&f=f79f37163fe96d4318c63725345c3950');
+}
+
+.mini-image-6{
+    background-image: url('https://d.newsweek.com/en/full/83499/newt-gingrich.webp?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77');
+}
+
+.box-model-2 > section > h3 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-model-2 > section > span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+
+.box-model-2 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgrey;
+    margin-right:5px;
+    margin-bottom: 10px;
+}
+
+.box-model-3{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box-model-3 > span {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 90%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgrey;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-model-3 > p {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 90%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgrey;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
