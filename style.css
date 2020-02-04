@@ -1,0 +1,102 @@
+.body{
+    max-width: 1350px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#f4f5f6;
+    margin: auto;
+}
+
+.top-navs{
+    position: relative;
+}
+
+.icon-page{
+    width: 396px;
+    height: 60px;
+    fill: white;
+}
+
+.content-to-bottom {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .navbar{
+    background-color:#f72210;
+    padding: 20px 0px 30px 20px;
+  }
+
+.center-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar .col-lg-8 .subscribe-btn{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 3px 10px 3px 10px;
+}
+
+.no-margin-padding{
+    margin:0;
+    padding:0;
+}
+
+.second-nav{
+    position: absolute;
+    top: 83%;
+    left:0%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(-135deg, transparent 15px, white 0);
+}
+
+.second-nav a {
+    border-right-style: solid;
+    border-right-color: lightgrey;
+    border-right-width: 1px;
+    padding-right:10px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-nav > div {
+    height: 25px;
+}
+
+.second-nav > div input{
+    border: 0;
+    width: 80%;
+}
+
+.main-container{
+    background-color:white;
+}
+
+.search-container{
+    position: relative;
+}
+
+.search-container > svg{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    height: 17px;
+    width: 17px;
+}
