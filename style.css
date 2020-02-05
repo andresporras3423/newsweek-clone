@@ -257,3 +257,17 @@
     padding-bottom: 10px;
 }
 
+.travel-culture{
+    height: 600px;
+    background-color: #f4f5f6;
+}
+
+.culture-box > div{
+    background-size: 61px 61px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.culture-image-1{
+    background-image: url('https://d.newsweek.com/en/full/83499/newt-gingrich.webp?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77');
+}
