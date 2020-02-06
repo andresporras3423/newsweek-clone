@@ -572,7 +572,7 @@
     margin-right: 15px;
 }
 
-.magazine-title label {
+.magazine-title label:nth-of-type(2) {
     color: rgb(51, 51, 51);
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -582,7 +582,62 @@
 .icon-dbl {
     border-bottom: 3px solid red;
     border-right: 3px solid red;
-    padding-bottom: 7px;
-    padding-right: 0px;
-    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+}
+
+
+.box-model-6 {
+    margin-top: 10px;
+}
+
+.box-model-6>div {
+    background-size: 100% auto;
+    width: 100%;
+    height: 245px;
+    z-index: -1;
+}
+
+.box-model-6>div>span {
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #f72210;
+    padding: 5px 10px 5px 10px;
+    width: 70px;
+    height: 52px;
+}
+
+.box-model-6>div>span>div{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin:10px 10px 10px 15px;
+}
+
+.box-model-6>h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.slideshows-image-1{
+    background-image: url('https://d.newsweek.com/en/full/1560097/tozeur-tunisia.webp?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d');  
+}
+
+.slideshows-image-2{
+    background-image: url('https://d.newsweek.com/en/full/1552749/eyjafjallajokull-iceland.webp?w=397&h=265&f=ea1ffc67b32c527ef435529cb5bd2dc6');  
+}
+
+.slideshows-image-3{
+    background-image: url('https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.webp?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d');  
+}
+
+.slideshows-image-4{
+    background-image: url('https://d.newsweek.com/en/full/1543106/2018-cup-collection.webp?w=397&h=265&f=e00260b486695409ac860cb50949464c');  
+}
+
+.slideshows-image-5{
+    background-image: url('https://d.newsweek.com/en/full/1542741/holiday-cups-starbucks.webp?w=397&h=265&f=cc7b0a58452583ca846051991fe522ce');  
+}
+
+.slideshows-image-6{
+    background-image: url('https://d.newsweek.com/en/full/1539646/first-wives-club-pumpkin.webp?w=397&h=265&f=4a9ecc91f6b122866651645aed974cf6');  
 }
