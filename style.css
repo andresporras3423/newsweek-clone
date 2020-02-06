@@ -1,16 +1,18 @@
-.body{
+.body {
     max-width: 1350px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color:#f4f5f6;
+    background-color: #f4f5f6;
     margin: auto;
 }
 
-.top-navs{
+.top-navs {
     position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-.icon-page{
+.icon-page {
     width: 396px;
     height: 60px;
     fill: white;
@@ -19,26 +21,26 @@
 .content-to-bottom {
     display: flex;
     align-items: flex-end;
-  }
-
-  .navbar{
-    background-color:#f72210;
-    padding: 20px 0px 30px 20px;
-  }
-
-.center-center{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.sign-btn{
+.navbar {
+    background-color: #f72210;
+    padding: 20px 0px 30px 20px;
+}
+
+.center-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
 }
 
-.navbar .col-lg-8 .subscribe-btn{
+.navbar .row .subscribe-btn {
     color: red;
     font-family: 'Roboto', sans-serif;
     width: 100%;
@@ -47,15 +49,15 @@
     padding: 3px 10px 3px 10px;
 }
 
-.no-margin-padding{
-    margin:0;
-    padding:0;
+.no-margin-padding {
+    margin: 0;
+    padding: 0;
 }
 
-.second-nav{
+.second-nav {
     position: absolute;
     top: 83%;
-    left:0%;
+    left: 0%;
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
@@ -64,36 +66,49 @@
     background: linear-gradient(-135deg, transparent 15px, white 0);
 }
 
+.second-nav > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .second-nav a {
     border-right-style: solid;
     border-right-color: lightgrey;
     border-right-width: 1px;
-    padding-right:10px;
-    padding-left: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
     text-align: center;
     font-size: 17px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
 
-.second-nav > div {
+.second-nav>div {
     height: 25px;
 }
 
-.second-nav > div input{
+.second-nav>div:nth-of-type(1){
+    margin-right:0px;
+}
+
+.second-nav>div:nth-of-type(2){
+    margin-left:0px;
+}
+
+.second-nav>div input {
     border: 0;
     width: 80%;
 }
 
-.main-container{
-    background-color:white;
+.main-container {
+    background-color: white;
 }
 
-.search-container{
+.search-container {
     position: relative;
 }
 
-.search-container > svg{
+.search-container>svg {
     position: absolute;
     top: 25%;
     left: 50%;
@@ -101,32 +116,34 @@
     width: 17px;
 }
 
-.section-title{
-    color: rgba(3,3,3,.4);
+.section-title {
+    color: rgba(3, 3, 3, .4);
     font-size: 16px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 11px;
+    padding-left: 15px;
 }
 
-.sections-container{
+.sections-container {
     margin-top: 50px;
 }
 
-.box-model{
+
+.box-model {
     margin-top: 10px;
 }
 
-.box-model > div{
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 200px;
-  z-index: -1;
+.box-model>div {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    z-index: -1;
 }
 
-.box-model > div > span {
-    background-color: rgba(255,255,255,.9);
+.box-model>div>span {
+    background-color: rgba(255, 255, 255, .9);
     color: #f72210;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -134,74 +151,83 @@
     padding: 5px 10px 5px 10px;
 }
 
-.box-model > h3 {
+.box-model>h3 {
     font-size: 20px;
     font-weight: 700;
 }
 
-.box-model > p {
+.box-model>p {
     font-size: 14px;
     font-weight: 400;
     color: #333;
 }
 
-.news-image-1{
+.news-image-1 {
     background-image: url('https://d.newsweek.com/en/full/1564869/gretchen-whitmer-michigan-democratic-governor.webp?w=397&h=265&q=90&f=23dc26f49a1a143fd454cd614efc15d6');
 }
 
-.news-image-2{
+.news-image-2 {
     background-image: url('https://d.newsweek.com/en/full/1564829/donald-trump-waves.webp?w=397&h=265&q=90&f=00b7462fee2a3d4a1617ce097781d8ec');
 }
 
-.news-image-3{
+.news-image-3 {
     background-image: url('https://d.newsweek.com/en/full/1564811/diamond-princess-cruise-ship-japan-february-2020.webp?w=397&h=265&q=90&f=940a55c62d92cb2a529f448e961ab953');
 }
 
-.news-image-4{
+.news-image-4 {
     background-image: url('https://d.newsweek.com/en/full/1564747/bernie-sanders.webp?w=591&h=364&f=09a2e5033283ffbf3f7fe991f152ae91');
 }
 
-.news-image-5{
+.news-image-5 {
     background-image: url('https://d.newsweek.com/en/full/1564757/donald-trump-jr-anti-semitism-ifnotnow-protesters-iowa.webp?w=397&h=265&q=90&f=28364ce5201fd5f5f87de68d872e8b00');
 }
 
-.box-model-2 > div{
-  background-size: 61px 61px;
-  background-repeat: no-repeat;
-  width: 100%;
+.news-image-6 {
+    background-image: url('https://d.newsweek.com/en/full/1565183/matthew-schrier-syria-refugee-camp-qatar-al-nusra.webp?w=397&h=265&f=fc0436739a202c28120c9ec920fb69b2');
 }
 
-.mini-image-1{
-    background-image: url('https://d.newsweek.com/en/full/1555939/mark-joseph.webp?w=63&h=63&f=33ea309c94ea8adc6d59a915e8f1e60e');
+.news-image-7 {
+    background-image: url('https://d.newsweek.com/en/full/1565178/pete-buttigieg-2020-democratic-party-poll-emerson.webp?w=397&h=265&f=18057f42136272f8c1a8a06873ef1135');
 }
 
-.mini-image-2{
-    background-image: url('https://d.newsweek.com/en/full/1564742/sandy-orth.webp?w=63&h=63&f=ae70a222f448ca5842eb361dd742da0f');
+.news-image-8 {
+    background-image: url('https://d.newsweek.com/en/full/1565252/nasa-christina-kock-spacewalk.webp?w=397&h=265&f=86457e1963e5ec406370e9a02f626aec');
 }
 
-.mini-image-3{
-    background-image: url('https://d.newsweek.com/en/full/1564137/paul-gordon.webp?w=63&h=63&f=710354e12f766815ef7a1047e42373a2');
+.news-image-9 {
+    background-image: url('https://d.newsweek.com/en/full/1565133/donald-trump.webp?w=397&h=265&f=c315941d3fe0a54e216b6e975762fab5');
 }
 
-.mini-image-4{
-    background-image: url('https://d.newsweek.com/en/full/1563844/alida-garcia.webp?w=63&h=63&f=f79f37163fe96d4318c63725345c3950');
+.news-image-10 {
+    background-image: url('https://d.newsweek.com/en/full/1565140/nancy-pelosi-state-union.webp?w=397&h=265&f=3ad4f9fb65d5c38c8e0e99c40b6ab086');
 }
 
-.mini-image-5{
-    background-image: url('https://d.newsweek.com/en/full/1563844/alida-garcia.webp?w=63&h=63&f=f79f37163fe96d4318c63725345c3950');
+.news-image-11 {
+    background-image: url('https://d.newsweek.com/en/full/1564763/plasma-globe.webp?w=397&h=265&f=19613bfca147fa66b9af73869c996dc1');
 }
 
-.mini-image-6{
-    background-image: url('https://d.newsweek.com/en/full/83499/newt-gingrich.webp?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77');
+.news-image-12 {
+    background-image: url('https://d.newsweek.com/en/full/1565123/pelosi-holds-ripped-speech.webp?w=397&h=265&f=b5c559696ae5ef65375daea53203c753');
 }
 
-.box-model-2 > section > h3 {
-    font-size: 16px;
+.news-image-13 {
+    background-image: url('https://d.newsweek.com/en/full/1565161/ambergris.webp?w=397&h=265&f=978ae875a4a9308be05a7f5f148700fc');
+}
+
+.box-model-2>div {
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75px;
+}
+
+.box-model-2>section>h3 {
+    font-size: 14px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
 
-.box-model-2 > section > span {
+.box-model-2>section>span {
     font-size: 14px;
     font-weight: 700;
     color: #555;
@@ -213,17 +239,43 @@
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: lightgrey;
-    margin-right:5px;
+    margin-right: 5px;
     margin-bottom: 10px;
 }
 
-.box-model-3{
+.mini-image-1 {
+    background-image: url('https://d.newsweek.com/en/full/1555939/mark-joseph.webp?w=63&h=63&f=33ea309c94ea8adc6d59a915e8f1e60e');
+}
+
+.mini-image-2 {
+    background-image: url('https://d.newsweek.com/en/full/1564742/sandy-orth.webp?w=63&h=63&f=ae70a222f448ca5842eb361dd742da0f');
+}
+
+.mini-image-3 {
+    background-image: url('https://d.newsweek.com/en/full/1564137/paul-gordon.webp?w=63&h=63&f=710354e12f766815ef7a1047e42373a2');
+}
+
+.mini-image-4 {
+    background-image: url('https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687');
+}
+
+.mini-image-5 {
+    background-image: url('https://d.newsweek.com/en/full/1563844/alida-garcia.webp?w=63&h=63&f=f79f37163fe96d4318c63725345c3950');
+}
+
+.mini-image-6 {
+    background-image: url('https://d.newsweek.com/en/full/83499/newt-gingrich.webp?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77');
+}
+
+
+
+.box-model-3 {
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.box-model-3 > span {
+.box-model-3>span {
     font-size: 14px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
@@ -240,7 +292,7 @@
     padding-bottom: 10px;
 }
 
-.box-model-3 > p {
+.box-model-3>p {
     font-size: 16px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
@@ -257,17 +309,280 @@
     padding-bottom: 10px;
 }
 
-.travel-culture{
-    height: 600px;
+.travel-culture {
     background-color: #f4f5f6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.culture-box > div{
-    background-size: 61px 61px;
+.culture-box>div {
+    background-size: 200px 150px;
     background-repeat: no-repeat;
     width: 100%;
+    height: 150px;
 }
 
-.culture-image-1{
-    background-image: url('https://d.newsweek.com/en/full/83499/newt-gingrich.webp?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77');
+.culture-box > h3 {
+    color: rgb(39, 39, 39);
+    font-size: 18px;
+}
+
+.culture-box > p {
+    color: rgba(39, 39, 39, 0.5);
+    font-size: 15px;
+}
+
+.culture-box > button {
+    background-color: rgb(194, 212, 215);
+    color: rgb(39, 39, 39);
+    border: 0;
+    font-size: 13px;
+}
+
+.culture-image1 {
+    background-image: url('https://d.newsweek.com/en/full/1565011/koffee-reggae-singer.webp?w=397&h=265&f=84976fc68c362f53a02453d07063e9d0');
+}
+
+.culture-image2 {
+    background-image: url('https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=397&h=265&l=53&t=46&f=425beec66e56d27490eaf4fb8b62313d');
+}
+
+.culture-image3 {
+    background-image: url('https://d.newsweek.com/en/full/1563674/face-masks-arrival-asia.webp?w=397&h=265&f=8d1deaa568e11c078015fb1253327907');
+}
+
+.culture-image4 {
+    background-image: url('https://d.newsweek.com/en/full/1558562/hotel-room-bed.webp?w=397&h=265&f=ed1a0340f070b91f3b55cc2e9a65b0fd');
+}
+
+.mini-news-image-1 {
+    background-image: url('https://d.newsweek.com/en/full/1565306/adam-lambert.webp?w=397&h=265&f=d4ec6aba18c06e11d6c5dd2b9711001f');
+}
+
+.mini-news-image-2 {
+    background-image: url('https://d.newsweek.com/en/full/1565297/kerameikos-cemetery.webp?w=397&h=265&f=af755ef78a11403aa5c3f8651c9d4c7e');
+}
+
+.mini-news-image-3 {
+    background-image: url('https://d.newsweek.com/en/full/1565277/alcohol.webp?w=397&h=265&f=70d8847da2c6e9aaa635b8eec4d772f4');
+}
+
+.mini-news-image-4 {
+    background-image: url('https://d.newsweek.com/en/full/1565258/mark-visconi.webp?w=397&h=265&f=3a648068b77c09a0b20b879128d67361');
+}
+
+.mini-news-image-5 {
+    background-image: url('https://d.newsweek.com/en/full/1565272/jeffrey-epstein.webp?w=397&h=265&f=d1bccca4c6eab1fe44907c4b776c838a');
+}
+
+.mini-news-image-6 {
+    background-image: url('https://d.newsweek.com/en/full/1564887/chicken-wings-super-bowl-liv-animal-welfare.webp?w=397&h=265&f=89003702d375dc7076e776370f3b9a9d');
+}
+
+.mini-news-image-7 {
+    background-image: url('https://d.newsweek.com/en/full/1565266/presidential-primary-debate.webp?w=397&h=265&f=477681c48d545f4cb3aa5855c4698327');
+}
+
+.mini-news-image-8 {
+    background-image: url('https://d.newsweek.com/en/full/1565270/democrats-likely-subpoena-john-bolton.webp?w=135&h=90&f=3bf2a0799110650e922bb59cedb512b3');
+}
+
+.box-model-4>div {
+    background-size: 135px 90px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+}
+
+
+.box-model-4>section>h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0,0,0);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+
+.box-model-4>section>P {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin-bottom: 5px;
+}
+
+.box-model-4 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgrey;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.newsletter{
+    height: 160px;
+    background-color:rgb(244, 245, 246);
+    border-bottom-color:rgb(229, 229, 229);
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    margin-right: 25px;
+    padding: 25px;
+}
+
+.newsletter > h3,
+.newsletter > p {
+    padding-left: 0;
+}
+
+.newsletter > h3 > label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.newsletter > button {
+    background-color:rgb(102, 102, 102);
+    border: 0;
+    color: white;
+    width: 110px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 5px 0 5px 0;
+}
+
+.icon {
+    width: 29px;
+    height: 28px;
+    background-color:red;
+}
+
+.newsletter > p {
+    color: rgb(51, 51, 51);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.box-model-5 {
+    margin-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.box-model-5>div {
+    background-size: 100% 275px;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 275px;
+    z-index: -1;
+}
+.box-model-5>h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.box-model-5 > h3 > label{
+    background-color: red;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box-model-5 > h3 > button{
+    background-color: white;
+    color: red;
+    border: 0;
+    font-weight: 700;
+}
+
+.box-model-5>p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.magazine-image-1{
+    background-image: url('https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=466&h=311&q=90&f=abf152c3b744f9eaf5410782549b55f5');  
+}
+
+.magazine-image-2{
+    background-image: url('https://d.newsweek.com/en/full/1560048/cyberattack-iran-us.webp?w=466&h=311&q=90&f=d6155703e9f0fa6b728f713d577cf4d5');  
+}
+
+.magazine-image-3{
+    background-image: url('https://d.newsweek.com/en/full/1562430/fea-futuretechces-09-1198129532.webp?w=466&h=311&q=90&f=130c3646b7506b034455b08ee3709740');  
+}
+
+.magazine-image-4{
+    background-image: url('https://d.newsweek.com/en/full/1561749/per-qa-charlesfried-01-108736674-web.webp?w=466&h=311&l=57&t=54&q=90&f=ba1664db374148854c79b6b5c102b1cd');  
+}
+
+.magazine-image-5{
+    background-image: url('https://d.newsweek.com/en/full/1563266/per-womenvoters-banner.webp?w=466&h=311&q=90&f=9c7609f8d375445c025c1256e6b4a9db');  
+}
+
+.magazine-image-6{
+    background-image: url('https://d.newsweek.com/en/full/1563246/cul-extremevacations-banner.webp?w=466&h=311&l=53&t=46&q=90&f=82f0041149b6fb0c186cf717920676b3');  
+}
+
+.magazine-image-7{
+    background-image: url('https://d.newsweek.com/en/full/1563303/mourning-legend.jpg');  
+}
+
+.see-all-features>div:nth-of-type(1) {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+}
+
+.see-all-features>div:nth-of-type(1)>span {
+    background-color: rgba(255, 255, 255, .9);
+    color: #f72210;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+}
+
+.see-all-features>div:nth-of-type(2){
+    background-color: #f4f5f6;
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.features-image{
+    background-image: url('https://d.newsweek.com/en/full/1563281/february-7-2020-cover.webp?w=290&h=387&q=90&f=6b77f96db77b3b5ba63b5b4885a3a6dc');  
+}
+
+.magazine-title{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color:lightgrey;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.magazine-title label {
+    color: rgb(51, 51, 51);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.icon-dbl {
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;
+    padding-bottom: 7px;
+    padding-right: 0px;
+    padding-left: 2px;
 }
