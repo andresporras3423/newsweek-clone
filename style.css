@@ -173,6 +173,10 @@
     height: 215px;
 } */
 
+.fa-bars{
+    color: rgb(245, 149, 165);
+}
+
 .box-model>div>span {
     background-color: rgba(255, 255, 255, .9);
     color: #f72210;
