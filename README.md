@@ -18,7 +18,7 @@ It is a clone of https://www.newsweek.com/ page
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/andresporras3423/newsweek-clone/3e2bba2bb461f50532aa01aec8c702e7479bd9a4/index.html)
+[Live Demo](https://rawcdn.githack.com/andresporras3423/newsweek-clone/dfbfc78b35b0b38788bb4a151f4cca1d2449d9da/index.html)
 
 ## Authors
 
