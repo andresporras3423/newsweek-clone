@@ -734,7 +734,7 @@
     padding-top: 66%;
 }
 
-.box-model-6>div>span {
+.box-model-6>div>div {
     background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
     color: #f72210;
     padding: 5px 10px 5px 10px;
@@ -743,7 +743,7 @@
     cursor: pointer;
 }
 
-.box-model-6>div>span>div{
+.box-model-6>div>div>div{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 22px;
