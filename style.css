@@ -10,6 +10,7 @@
   padding-right: 30px;
   background-color: #f4f5f6;
   margin: auto;
+  overflow-x: scroll;
 }
 
 .top-navs {
