@@ -999,12 +999,6 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .body {
-    overflow-x: scroll;
-  }
-}
-
 @media only screen and (max-width: 576px) {
   .navbar .row .subscribe-btn,
   .sign-btn {
