@@ -10,7 +10,6 @@
   padding-right: 30px;
   background-color: #f4f5f6;
   margin: auto;
-  overflow-x: scroll;
 }
 
 .top-navs {
@@ -996,6 +995,12 @@
   .box-model-5 > h3 > button,
   .box-model-5 > h3 > label {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .body {
+    overflow-x: scroll;
   }
 }
 
