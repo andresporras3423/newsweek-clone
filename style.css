@@ -918,6 +918,11 @@
   padding-left: 0;
 }
 
+.box-model-3:hover{
+  color: red;
+  cursor: pointer;
+}
+
 .footer-2>ul>li:hover {
   cursor: pointer;
   color: black;
