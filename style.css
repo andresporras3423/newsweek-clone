@@ -101,13 +101,13 @@
   cursor: pointer;
 }
 
-.second-nav>div {
+.second-nav > div {
   height: 25px;
   padding-left: 0;
   padding-right: 0;
 }
 
-.box-model>div {
+.box-model > div {
   background-size: 100% auto;
   background-repeat: no-repeat;
   width: 100%;
@@ -116,14 +116,14 @@
   z-index: -1;
 }
 
-.box-model-2>div {
+.box-model-2 > div {
   background-size: 65px 65px;
   background-repeat: no-repeat;
   width: 100%;
   height: 75px;
 }
 
-.culture-box>div {
+.culture-box > div {
   background-size: 100% auto;
   background-repeat: no-repeat;
   width: 100%;
@@ -131,14 +131,14 @@
   padding-top: 55.25%;
 }
 
-.box-model-4>div {
+.box-model-4 > div {
   background-size: 135px 90px;
   background-repeat: no-repeat;
   width: 100%;
   height: 100px;
 }
 
-.box-model-5>div {
+.box-model-5 > div {
   background-size: 100% auto;
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
@@ -148,7 +148,7 @@
   z-index: -1;
 }
 
-.box-model-6>div {
+.box-model-6 > div {
   background-size: 100% auto;
   width: 100%;
   height: 0;
@@ -156,7 +156,7 @@
   padding-top: 66%;
 }
 
-.box-model-6>div>div {
+.box-model-6 > div > div {
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
   color: #f72210;
   padding: 5px 10px 5px 10px;
@@ -165,22 +165,22 @@
   cursor: pointer;
 }
 
-.box-model-6>div>div>div {
+.box-model-6 > div > div > div {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 22px;
   margin: 10px 10px 10px 15px;
 }
 
-.second-nav>div:nth-of-type(1) {
+.second-nav > div:nth-of-type(1) {
   margin-right: 0;
 }
 
-.second-nav>div:nth-of-type(2) {
+.second-nav > div:nth-of-type(2) {
   margin-left: 0;
 }
 
-.second-nav>div input {
+.second-nav > div input {
   border: 0;
   width: 80%;
 }
@@ -193,7 +193,7 @@
   position: relative;
 }
 
-.search-container>svg {
+.search-container > svg {
   position: absolute;
   top: 25%;
   left: 60%;
@@ -222,7 +222,7 @@
   color: rgb(245, 149, 165);
 }
 
-.box-model-3>span {
+.box-model-3 > span {
   font-size: 14px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
@@ -239,7 +239,7 @@
   padding-bottom: 10px;
 }
 
-.box-model>div>span {
+.box-model > div > span {
   background-color: rgba(255, 255, 255, 0.9);
   color: #f72210;
   font-family: 'Roboto', sans-serif;
@@ -248,46 +248,46 @@
   padding: 5px 10px 5px 10px;
 }
 
-.box-model>h3 {
+.box-model > h3 {
   font-size: 20px;
   font-weight: 700;
 }
 
-.newsletter>h3,
-.newsletter>p {
+.newsletter > h3,
+.newsletter > p {
   padding-left: 0;
 }
 
-.culture-box>h3 {
+.culture-box > h3 {
   color: rgb(39, 39, 39);
   font-size: 18px;
 }
 
-.box-model-5>h3 {
+.box-model-5 > h3 {
   font-size: 17px;
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
-.box-model-6>h3 {
+.box-model-6 > h3 {
   font-size: 20px;
   font-weight: 700;
 }
 
-.click-section>h3 {
+.click-section > h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 20px;
 }
 
-.box-model-2>section>h3 {
+.box-model-2 > section > h3 {
   font-size: 14px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
 }
 
-.box-model-4>section>h3 {
+.box-model-4 > section > h3 {
   font-size: 15px;
   font-weight: 700;
   color: rgb(0, 0, 0);
@@ -295,17 +295,17 @@
   margin-bottom: 5px;
 }
 
-.culture-box>h3:hover {
+.culture-box > h3:hover {
   cursor: pointer;
 }
 
-.box-model>h3:hover {
+.box-model > h3:hover {
   text-decoration-line: underline;
   text-decoration-color: red;
   cursor: pointer;
 }
 
-.box-model>p {
+.box-model > p {
   font-size: 14px;
   font-weight: 400;
   color: #333;
@@ -376,18 +376,18 @@
   background-image: url('https://d.newsweek.com/en/full/1565161/ambergris.webp?w=397&h=265&f=978ae875a4a9308be05a7f5f148700fc');
 }
 
-.box-model-6>h3:hover {
+.box-model-6 > h3:hover {
   cursor: pointer;
   text-decoration-line: underline;
   text-decoration-color: red;
 }
 
-.box-model-2>section>h3:hover {
+.box-model-2 > section > h3:hover {
   color: red;
   cursor: pointer;
 }
 
-.box-model-2>section>span {
+.box-model-2 > section > span {
   font-size: 14px;
   font-weight: 700;
   color: #555;
@@ -439,7 +439,7 @@
   justify-content: center;
 }
 
-.box-model-3>p {
+.box-model-3 > p {
   font-size: 16px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
@@ -464,12 +464,12 @@
   margin-bottom: 20px;
 }
 
-.culture-box>p {
+.culture-box > p {
   color: rgba(39, 39, 39, 0.5);
   font-size: 15px;
 }
 
-.culture-box>button {
+.culture-box > button {
   background-color: rgb(194, 212, 215);
   color: rgb(39, 39, 39);
   border: 0;
@@ -477,7 +477,7 @@
   margin-bottom: 20px;
 }
 
-.newsletter>button {
+.newsletter > button {
   background-color: rgb(102, 102, 102);
   border: 0;
   color: white;
@@ -488,7 +488,7 @@
   padding: 5px 0 5px 0;
 }
 
-.click-section>button {
+.click-section > button {
   background-color: red;
   color: white;
   border: 0;
@@ -497,14 +497,14 @@
   font-size: 18px;
 }
 
-.box-model-5>h3>button {
+.box-model-5 > h3 > button {
   background-color: white;
   color: red;
   border: 0;
   font-weight: 700;
 }
 
-.culture-box>button:hover {
+.culture-box > button:hover {
   color: rgb(194, 212, 215);
   background-color: rgb(39, 39, 39);
   cursor: pointer;
@@ -575,19 +575,19 @@
   background-image: url('https://d.newsweek.com/en/full/1565580/coronavirus-doctor-wuhan-dead-death-toll.webp?w=397&h=265&f=0b10767388b956b10a7ec116998cb5d5');
 }
 
-.box-model-4>section>h3:hover {
+.box-model-4 > section > h3:hover {
   color: red;
   cursor: pointer;
 }
 
-.box-model-4.more-stories>section>h3:hover {
+.box-model-4.more-stories > section > h3:hover {
   text-decoration-line: underline;
   text-decoration-color: red;
   color: black;
   cursor: pointer;
 }
 
-.newsletter>p {
+.newsletter > p {
   color: rgb(51, 51, 51);
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -597,17 +597,17 @@
   cursor: pointer;
 }
 
-.box-model-5>p {
+.box-model-5 > p {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 17px;
 }
 
-.click-section>p {
+.click-section > p {
   font-size: 16px;
 }
 
-.box-model-4>section>p {
+.box-model-4 > section > p {
   font-size: 14px;
   font-weight: 400;
   color: rgb(51, 51, 51);
@@ -632,19 +632,19 @@
   padding: 25px;
 }
 
-.footer-2>label {
+.footer-2 > label {
   font-weight: 700;
   padding-right: 20px;
   color: rgb(102, 102, 102);
 }
 
-.newsletter>h3>label {
+.newsletter > h3 > label {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 18px;
 }
 
-.newsletter>button:hover {
+.newsletter > button:hover {
   background-color: rgb(152, 152, 152);
 }
 
@@ -660,14 +660,14 @@
   padding-right: 0;
 }
 
-.box-model-5>h3>label {
+.box-model-5 > h3 > label {
   background-color: red;
   color: white;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.box-model-5>p:hover {
+.box-model-5 > p:hover {
   cursor: pointer;
   text-decoration-line: underline;
   text-decoration-color: red;
@@ -708,7 +708,7 @@
   background-image: url('https://d.newsweek.com/en/full/1563303/mourning-legend.jpg');
 }
 
-.see-all-features>div:nth-of-type(1) {
+.see-all-features > div:nth-of-type(1) {
   background-size: 100% auto;
   background-repeat: no-repeat;
   width: 100%;
@@ -718,18 +718,18 @@
   margin-top: 25px;
 }
 
-.subscribe-section>div:nth-of-type(1) {
+.subscribe-section > div:nth-of-type(1) {
   position: relative;
   height: 300px;
 }
 
-.footer-1>div>span {
+.footer-1 > div > span {
   font-size: 13px;
   margin-left: 20px;
   color: rgb(102, 102, 102);
 }
 
-.see-all-features>div:nth-of-type(1)>span {
+.see-all-features > div:nth-of-type(1) > span {
   background-color: rgba(255, 255, 255, 0.9);
   color: #f72210;
   font-family: 'Roboto', sans-serif;
@@ -738,11 +738,11 @@
   padding: 5px 10px 5px 10px;
 }
 
-.subscribe-section>div:nth-of-type(2) {
+.subscribe-section > div:nth-of-type(2) {
   padding: 75px 50px 75px 50px;
 }
 
-.see-all-features>div:nth-of-type(2) {
+.see-all-features > div:nth-of-type(2) {
   background-color: #f4f5f6;
   font-weight: 700;
   font-size: 17px;
@@ -750,21 +750,21 @@
   padding-bottom: 10px;
 }
 
-.newsletter-section>div:nth-of-type(2) {
+.newsletter-section > div:nth-of-type(2) {
   cursor: pointer;
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
   width: auto;
   height: 300px;
 }
 
-.newsletter-section>div:nth-of-type(3) {
+.newsletter-section > div:nth-of-type(3) {
   padding: 25px;
   border-bottom: 1px solid lightgrey;
   border-top: 1px solid lightgrey;
   border-right: 1px solid lightgrey;
 }
 
-.see-all-features>div:nth-of-type(2):hover {
+.see-all-features > div:nth-of-type(2):hover {
   background-color: rgb(202, 202, 202);
   cursor: pointer;
 }
@@ -843,8 +843,8 @@
   padding-bottom: 50px;
 }
 
-.subscribe-signup>div:nth-of-type(1)>div:nth-of-type(1),
-.subscribe-signup>div:nth-of-type(2)>div:nth-of-type(1) {
+.subscribe-signup > div:nth-of-type(1) > div:nth-of-type(1),
+.subscribe-signup > div:nth-of-type(2) > div:nth-of-type(1) {
   color: red;
   padding-left: 0;
   font-family: 'Roboto', sans-serif;
@@ -857,19 +857,19 @@
   background-color: rgb(244, 245, 246);
 }
 
-.subscribe-section>div:nth-of-type(1)>img:nth-of-type(1) {
+.subscribe-section > div:nth-of-type(1) > img:nth-of-type(1) {
   position: absolute;
   top: 10%;
   left: 10%;
 }
 
-.subscribe-section>div:nth-of-type(1)>img:nth-of-type(2) {
+.subscribe-section > div:nth-of-type(1) > img:nth-of-type(2) {
   position: absolute;
   top: 20%;
   left: 30%;
 }
 
-.click-section>button:hover {
+.click-section > button:hover {
   background-color: rgb(205, 0, 0);
 }
 
@@ -880,14 +880,14 @@
   cursor: pointer;
 }
 
-.social-icons>i {
+.social-icons > i {
   font-size: 20px;
   color: rgb(102, 102, 102);
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.social-icons>i:hover {
+.social-icons > i:hover {
   color: rgb(73, 73, 182);
   cursor: pointer;
 }
@@ -905,12 +905,12 @@
   display: flex;
 }
 
-.footer-2>ul {
+.footer-2 > ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-.footer-2>ul>li {
+.footer-2 > ul > li {
   display: inline-block;
   padding-right: 10px;
   font-size: 15px;
@@ -918,17 +918,17 @@
   padding-left: 0;
 }
 
-.box-model-3:hover{
+.box-model-3:hover {
   color: red;
   cursor: pointer;
 }
 
-.footer-2>ul>li:hover {
+.footer-2 > ul > li:hover {
   cursor: pointer;
   color: black;
 }
 
-.footer-2>ul>li:not(:last-of-type) {
+.footer-2 > ul > li:not(:last-of-type) {
   border-right: 1px solid lightgrey;
 }
 
@@ -955,11 +955,11 @@
     font-size: 27px;
   }
 
-  .navbar>div:nth-of-type(1) {
+  .navbar > div:nth-of-type(1) {
     display: none;
   }
 
-  .navbar>div:nth-of-type(2) {
+  .navbar > div:nth-of-type(2) {
     justify-content: left;
   }
 
@@ -972,14 +972,13 @@
     display: none;
   }
 
-  .box-model-5>h3>button,
-  .box-model-5>h3>label {
+  .box-model-5 > h3 > button,
+  .box-model-5 > h3 > label {
     font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 576px) {
-
   .navbar .row .subscribe-btn,
   .sign-btn {
     font-size: 14px;
