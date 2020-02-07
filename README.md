@@ -2,7 +2,7 @@
 
 Seventh Microverse Project by Oscar Russi
 
-![screenshot](screenshot.png)
+![screenshot](screenshot-newsweek-clone.png)
 
 # What it does
 
